@@ -1,0 +1,103 @@
+:root {
+  --ink: #15362c;
+  --ink-soft: #2f473f;
+  --surface: #fbfcfa;
+  --page: #e6eee8;
+  --line: #dce5de;
+  --line-strong: #c5d3ca;
+  --muted: #63756e;
+  --muted-light: #83918c;
+  --teal: #177e74;
+  --teal-dark: #0f665e;
+  --teal-wash: #e2f1ed;
+  --vermilion: #c14832;
+  --vermilion-dark: #9e3928;
+  --vermilion-wash: #f8e8e2;
+  --gold: #d39a33;
+  --gold-dark: #8b621b;
+  --gold-wash: #fbf3dc;
+  --display: 'Songti SC', STSong, 'Noto Serif CJK SC', serif;
+  --body: 'PingFang SC', 'Microsoft YaHei UI', 'Microsoft YaHei', sans-serif;
+
+  color: var(--ink-soft);
+  background: var(--page);
+  font-family: var(--body);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+  letter-spacing: 0;
+}
+
+html {
+  min-width: 320px;
+  min-height: 100%;
+  scroll-behavior: smooth;
+  background: var(--page);
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background-color: var(--page);
+  background-image:
+    linear-gradient(135deg, rgba(21, 54, 44, 0.045) 25%, transparent 25%),
+    linear-gradient(315deg, rgba(193, 72, 50, 0.025) 25%, transparent 25%);
+  background-position: 0 0, 18px 18px;
+  background-size: 36px 36px;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+button,
+label,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button,
+label {
+  cursor: pointer;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid rgba(23, 126, 116, 0.24);
+  outline-offset: 2px;
+}
+
+img {
+  max-width: 100%;
+}
+
+::selection {
+  color: #fff;
+  background: var(--teal);
+}
+
+@media (min-width: 900px) {
+  body {
+    padding: 20px 0 80px;
+  }
+
+  .app-shell {
+    border-radius: 8px 8px 0 0;
+    overflow: clip;
+  }
+
+  .topbar {
+    top: 20px;
+  }
+}
