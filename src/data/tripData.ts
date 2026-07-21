@@ -88,44 +88,44 @@ export interface PackingGroup {
 
 export const hotels: HotelPlan[] = [
   {
-    id: 'hotel-xuanen-ji',
+    id: 'hotel-xuanen',
     date: '8月5日',
     city: '宣恩',
-    name: '全季酒店（宣恩县店）',
-    address: '宣恩县兴隆首府B栋（县政府斜对面）',
-    price: '房价与房态实时变化，以华住会为准',
-    note: '距文澜桥公开信息标注步行约5分钟，夜游后可步行返店。',
-    url: 'https://hotels.ctrip.com/hotels/121570265.html',
+    name: '宣恩今典君澜大酒店',
+    address: '贡水河夜游区域',
+    price: '建议 ¥500—800 / 间夜',
+    note: '夜游后可步行返店；付款前核对含税价、早餐和取消政策。',
+    url: 'https://hotels.ctrip.com/hotels/81141533.html',
   },
   {
-    id: 'hotel-enshi-railway-ji',
+    id: 'hotel-enshi-argyle',
     date: '8月6日',
     city: '恩施',
-    name: '全季酒店（恩施火车站店）',
-    address: '恩施市金子坝街道金桂大道102号1号楼1楼',
-    price: '房价与房态实时变化，以华住会为准',
-    note: '距恩施站约0.88公里，公开信息称步行约10分钟，适合次日早班动车。',
-    url: 'https://hotels.ctrip.com/hotels/135202452.html',
+    name: '恩施奥山雅阁酒店（恩施火车站机场店）',
+    address: '恩施市火车站一路2号',
+    price: '建议 ¥380—600 / 间夜',
+    note: '次日乘恩施至利川早班动车，优先确认免费行李寄存。',
+    url: 'https://hotels.ctrip.com/hotels/3423667.html',
   },
   {
-    id: 'hotel-lichuan-tenglong-ji',
+    id: 'hotel-lichuan',
     date: '8月7日',
     city: '利川',
-    name: '全季酒店（恩施利川腾龙洞游客中心店）',
-    address: '利川市东城办事处关东社区一组旅游路100号301幢',
-    price: '房价与房态实时变化，以华住会为准',
-    note: '距腾龙洞游客中心步行约8分钟、距利川站约4.8公里，并提供免费行李寄存。',
-    url: 'https://hotels.ctrip.com/hotels/107442290.html',
+    name: '利川时代开元名都大酒店',
+    address: '利川市滨江北路99号',
+    price: '建议 ¥420—650 / 间夜',
+    note: '兼顾佛宝山返程、次日腾龙洞和利川站。',
+    url: 'https://hotels.ctrip.com/hotels/6853802.html',
   },
   {
-    id: 'hotel-enshi-airport-hanting',
+    id: 'hotel-enshi-movenpick',
     date: '8月8日',
     city: '恩施',
-    name: '汉庭酒店（恩施许家坪机场店）',
-    address: '恩施市施州大道452号',
-    price: '房价与房态实时变化，以华住会为准',
-    note: '公开平台显示距许家坪机场约0.9—1.2公里，适合次日早班机。',
-    url: 'https://hotels.ctrip.com/hotels/132256719.html',
+    name: '恩施瑞享国际酒店',
+    address: '恩施市金桂大道6号',
+    price: '建议 ¥500—800 / 间夜',
+    note: '公开资料显示距许家坪机场约2.6公里，适合次日早班机。',
+    url: 'https://movenpick.accor.com/zh-cn/asia/china/enshi/movenpick-hotel-enshi.html',
   },
 ]
 
@@ -167,7 +167,7 @@ export const tripDays: DayPlan[] = [
       {
         time: '14:30—16:30',
         title: '恩施机场 → 宣恩',
-        detail: '取行李后前往全季酒店（宣恩县店）；山路和旺季交通按90分钟以上安排。',
+        detail: '取行李后前往今典君澜；山路和旺季交通按90分钟以上安排。',
         tag: '山路',
       },
       {
@@ -182,7 +182,7 @@ export const tripDays: DayPlan[] = [
       '雷雨时取消水上项目和临水停留；小雨改走文澜桥—兴隆老街步行线。',
       '烤活鱼先确认鱼重、单价、配菜和辣度，避开水上项目临开场时点餐。',
     ],
-    hotelId: 'hotel-xuanen-ji',
+    hotelId: 'hotel-xuanen',
   },
   {
     id: 'day-2',
@@ -221,7 +221,7 @@ export const tripDays: DayPlan[] = [
       {
         time: '14:00以后',
         title: '屏山 → 恩施站片区',
-        detail: '提前落实离园车辆，按山路和晚高峰留足时间，入住全季酒店（恩施火车站店）。',
+        detail: '提前落实离园车辆，按山路和晚高峰留足时间，入住奥山雅阁。',
         tag: '转场',
       },
     ],
@@ -230,7 +230,7 @@ export const tripDays: DayPlan[] = [
       '同行人以最慢者为节奏；码头穿好救生衣，不抢船边机位。',
       '峡谷光束、水色和“悬浮船”效果受阳光、降雨及水位影响。',
     ],
-    hotelId: 'hotel-enshi-railway-ji',
+    hotelId: 'hotel-enshi-argyle',
     phone: {
       label: '屏山峡谷咨询',
       number: '0718-5282222',
@@ -255,7 +255,7 @@ export const tripDays: DayPlan[] = [
       {
         time: '早晨',
         title: '恩施站 → 利川站',
-        detail: '从全季酒店（恩施火车站店）步行或打车前往恩施站，乘开售后的较早动车；到利川后寄存行李。',
+        detail: '从奥山雅阁前往恩施站，乘开售后的较早动车；到利川后寄存行李。',
         tag: '铁路',
       },
       {
@@ -282,7 +282,7 @@ export const tripDays: DayPlan[] = [
       '未得到下午批次明确答复前，不付款预订不可退包车或漂流票。',
       '饮酒、发热、明显不适、伤病未愈或景区判定不适合时主动放弃。',
     ],
-    hotelId: 'hotel-lichuan-tenglong-ji',
+    hotelId: 'hotel-lichuan',
     phone: {
       label: '佛宝山咨询',
       number: '0718-7106555',
@@ -307,7 +307,7 @@ export const tripDays: DayPlan[] = [
       {
         time: '08:00前后',
         title: '退房、寄存行李',
-        detail: '在全季酒店（恩施利川腾龙洞游客中心店）寄存行李，轻装进入腾龙洞。',
+        detail: '在利川时代开元名都确认免费寄存，轻装进入腾龙洞。',
         tag: '寄存',
       },
       {
@@ -325,7 +325,7 @@ export const tripDays: DayPlan[] = [
       {
         time: '傍晚',
         title: '入住恩施',
-        detail: '入住汉庭酒店（恩施许家坪机场店）。土司城只在时间与开放状态都允许时追加。',
+        detail: '入住恩施瑞享。土司城只在时间与开放状态都允许时追加。',
         tag: '休整',
       },
     ],
@@ -334,7 +334,7 @@ export const tripDays: DayPlan[] = [
       '门票、观光车和演出是否分项，以2026购票页为准；旧价格不作承诺。',
       '距下一场不足60—90分钟时先去剧场；不要沿用旧攻略中的固定场次。',
     ],
-    hotelId: 'hotel-enshi-airport-hanting',
+    hotelId: 'hotel-enshi-movenpick',
   },
   {
     id: 'day-5',
@@ -352,8 +352,8 @@ export const tripDays: DayPlan[] = [
     schedule: [
       {
         time: '建议 06:45',
-        title: '机场汉庭 → 恩施机场 T1',
-        detail: '公开平台显示酒店距机场约0.9—1.2公里，仍建议计入叫车、装行李和早班机场排队。',
+        title: '恩施瑞享 → 恩施机场 T1',
+        detail: '酒店距机场约2.6公里，仍需计入叫车、装行李和早班机场排队。',
         tag: '退房',
       },
       {
@@ -526,7 +526,7 @@ export const contingencies: ContingencyPlan[] = [
       },
       {
         label: '转恩施城区',
-        detail: '提前回恩施，安排城区轻量活动并入住全季酒店（恩施火车站店），保住次日早班动车。',
+        detail: '提前回恩施，安排城区轻量活动并入住奥山雅阁，保住次日早班动车。',
       },
       {
         label: '提前去利川',
